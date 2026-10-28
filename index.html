@@ -1,35 +1,739 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#111116" />
-    <title>
-      NGUYỄN TRUNG IOS — MOD MENU
-    </title>
+<head>
+    <title>ZALO:0345269332</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Nhận Làm Bio Như Này Ạ"/>
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://sf-static.upanhlaylink.com/img/image_2026040386bdab7879600d2bee033f35ee854787.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <style>
-      :root{color-scheme:dark;--bg:#080b14;--panel:#101827;--line:#26334b;--muted:#91a2bd;--text:#edf5ff;--accent:#37e6ff;--green:#a3ff65}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -10%,#12334b 0,transparent 38%),radial-gradient(ellipse at 95% 15%,#241544 0,transparent 30%),var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,sans-serif;background-attachment:fixed}
-    button,select,a{-webkit-tap-highlight-color:transparent}button,select{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:wait;opacity:.5}
-    button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button{color:inherit}a{color:inherit;text-decoration:none}
-    .shell{width:min(1240px,calc(100% - 64px));margin:auto}.topbar{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #26334b;background:#080b14d9;backdrop-filter:blur(18px);position:relative}.topbar:after{content:&#34;&#34;;position:absolute;bottom:-1px;left:0;width:100%;height:1px;background:linear-gradient(90deg,transparent,#37e6ff,#a855f7,transparent)}
-    .brand{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:800;letter-spacing:2px}.brandmark{display:grid;place-items:center;background:linear-gradient(135deg,#37e6ff,#a855f7);color:#07111c;width:38px;height:38px;border-radius:12px;font-size:21px;letter-spacing:0;box-shadow:0 0 24px #37e6ff45}
-    .platform{color:var(--muted);font-size:12px;display:flex;gap:8px;align-items:center}.dot{height:6px;width:6px;background:var(--green);border-radius:50%}
-    .intro{padding:42px 0 28px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:700;margin:0 0 8px}
-    h1{font-size:clamp(30px,4vw,42px);letter-spacing:-1.3px;line-height:1.12;margin:0 0 9px;background:linear-gradient(90deg,#f4fbff 10%,#37e6ff 55%,#b78aff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 32px #37e6ff15}.sub{color:var(--muted);margin:0;font-size:13px}.count{color:var(--muted);font-size:12px;padding-bottom:2px}
-    .workspace{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(350px,1fr);gap:22px;align-items:start}.stage{border:1px solid #2c4563;border-radius:20px;overflow:hidden;background:#0e1625;position:sticky;top:20px;box-shadow:0 18px 65px #0006,0 0 35px #37e6ff0a}
-    .stage-head{position:absolute;z-index:2;top:22px;left:24px;right:24px;display:flex;justify-content:space-between;align-items:center;pointer-events:none}.character-name{font-size:20px;font-weight:800;letter-spacing:3px}.badge{font-size:10px;letter-spacing:1px;color:var(--muted);border:1px solid #494950;border-radius:20px;padding:4px 10px}
-    #viewport{height:550px;position:relative;background:radial-gradient(ellipse at 50% 45%,#343041 0,#201e29 38%,#17171f 75%)}#viewport canvas{width:100%;height:100%;display:block;touch-action:none}
-    .watermark{position:absolute;top:15%;left:50%;transform:translateX(-50%);font-size:100px;font-weight:900;letter-spacing:14px;color:#ffffff05;pointer-events:none;white-space:nowrap}
-    #fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:none}.preview-message{position:absolute;inset:0;display:grid;place-content:center;padding:35px;text-align:center;color:var(--muted);font-size:13px;pointer-events:none}.preview-message.hidden{display:none}
-    .stage-footer{padding:15px 22px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}.hint{margin:0;color:var(--muted);font-size:11px;max-width:270px}.
-      view-tools{display:flex;gap:7px;flex-shrink:0}.small-button{background:#17243a;border:1px solid #304663;border-radius:8px;min-width:36px;padding:7px 10px;font-size:12px;white-space:nowrap}
-    .panel{border:1px solid #2c4563;border-radius:20px;padding:24px;background:linear-gradient(145deg,#111c2d,#0d1320);box-shadow:0 18px 65px #0005}.panel-title{margin:0 0 16px;font-size:16px;letter-spacing:-.3px}.presets{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:26px}
-    .preset{border:1px solid #41404b;background:#141f32;border-radius:12px;text-align:left;padding:12px 14px;transition:background .18s,border-color .18s}.preset:hover{background:#302b3c}.preset[aria-pressed=&#34;true&#34;]{border-color:var(--accent);background:#b29aff14}.preset-num{color:var(--muted);font-size:10px;letter-spacing:1.6px;margin-bottom:5px;display:block}.preset-name{font-size:13px;font-weight:650;display:block}.preset-detail{font-size:10px;color:var(--muted);display:block;margin-top:3px}
-    .form-row{display:grid;grid-template-columns:91px 1fr;align-items:center;gap:12px;margin:11px 0}.form-row label,.fixed-label{font-size:12px;color:var(--muted)}.row-icon{display:inline-block;width:22px;color:#d2c5f0;font-size:14px}.select-wrap{position:relative}.select-wrap::after{content:&#39;⌄&#39;;position:absolute;right:15px;top:8px;pointer-events:none;color:var(--accent)}
-    select{width:100%;appearance:none;background:#272631;border:1px solid #44424e;border-radius:10px;padding:10px 36px 10px 13px;color:var(--text);font-size:13px;cursor:pointer;min-height:42px}.fixed-value{background:#202029;border:1px solid #2e2d39;border-radius:10px;padding:10px 13px;font-size:13px;min-height:42px;display:flex;justify-content:space-between;align-items:center}.fixed-value .single{font-size:10px;color:#777684}
-    .form-divider{height:1px;background:var(--line);margin:20px 0}.action-note{margin:7px 0 0 103px;font-size:11px;line-height:1.6;color:var(--muted)}.mix-tools{display:flex;gap:8px;margin-top:20px}.mix-tools button{border:1px solid #41404b;border-radius:9px;background:transparent;padding:8px 12px;font-size:12px;flex:1}.mix-tools button:hover{background:#2b2935}
-    .download-area{margin-top:21px;border-top:1px solid var(--line);padding-top:20px}.selection-caption{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:1.3px;margin:0 0 6px}.selection-summary{font-size:12px;color:#d1c7e4;margin:0 0 16px;min-height:36px;line-height:1.7}.download{display:flex;width:100%;gap:10px;justify-content:center;align-items:center;background:linear-gradient(100deg,#a3ff65,#37e6ff);color:#06131c;box-shadow:0 8px 25px #37e6ff20;border:0;border-radius:11px;padding:13px 14px;font-weight:750;font-size:13px}.download:hover{background:#d5faa1}.download:disabled{background:#434b36;color:#a2aa96}.download svg{width:17px;height:17px}.status{font-size:11px;text-align:center;color:var(--muted);margin:10px 0 0;min-height:17px}.status.error{color:#ffaaaa}
-    footer{color:#91a2bd;padding:28px 0 30px;font-size:10px;display:flex;justify-content:space-between;gap:15px}footer a{text-decoration:underline}.noscript{padding:20px;color:#ffaaaa}
-    .buy-key-top,.hero-buy{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border-radius:11px;font-weight:900;letter-spacing:.5px;background:linear-gradient(100deg,#37e6ff,#a855f7);color:#07111c;padding:11px 15px;font-size:11px;box-shadow:0 7px 25px #37e6ff20;white-space:nowrap}.hero-buy{padding:13px 17px}.hero-buy span{font-size:17px}.buy-key-top:hover,.hero-buy:hover{filter:brightness(1.12);transform:translateY(-1px)}.fish-menu{background:#101827;border-color:#2c4563}.fish-menu a:hover{background:#172a40}@media(max-width:860px){.hero-buy{align-self:flex-start}.intro{align-items:flex-start;flex-direction:column}.shell{width:calc(100% - 36px)}.workspace{grid-template-columns:1fr}.stage{position:relative;top:0}#viewport{height:470px}.intro{padding:26px 0 22px}.topbar{height:72px}.panel{padding:22px}.hint{max-width:240px}h1{font-size:29px}}
-    @media(max-width:440px){.
+        :root {
+            --primary: #3b82f6;
+            --bg-gradient: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            --primary: linear-gradient(135deg, #7f7fd5, #a07df0);
+            --accent: #d946ef;
+            --dark-bg: #050507;
+            --panel-bg: rgba(15, 15, 20, 0.65);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-main: #e2e8f0;
+        }
+        @keyframes starsAnimation {
+            from { transform: translateY(0); }
+            to { transform: translateY(-2000px); }
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .snowflakes { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 100; }
+        .snowflake { color: #fff; font-size: 1.2em; position: absolute; top: -10%; animation: fall linear infinite; opacity: 0.5; }
+        @keyframes fall { to { transform: translateY(110vh) rotate(360deg); } }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.116);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .glass-card:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.082);
+            border-color: var(--primary);
+            box-shadow: 0 15px 35px rgba(59, 130, 246, 0.15);
+        }
+      .avatar-container{
+    position:relative;
+    width:120px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    margin:0 auto;
+}
+
+.avatar-container::before{
+    display:none !important;
+}
+        @keyframes rotateGlow { 100% { transform: rotate(360deg); } }
+        .btn-action {
+            background: white; width: 50px; height: 50px; border-radius: 16px;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.06); color: #1e293b; transition: 0.3s;
+            flex-shrink: 0; border: 1px solid rgba(255,255,255,0.8);
+        }
+        .btn-action:hover {
+            background: var(--primary); color: white; transform: rotate(8deg) scale(1.1);
+        }
+        .list-container {
+            margin: 0 15px; background: rgba(255, 255, 255, 0.3);
+            border-radius: 30px; border: 1px solid rgba(255,255,255,0.4); overflow: hidden;
+        }
+        .list-row {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 18px 20px; border-bottom: 1px solid rgba(255,255,255,0.2);
+            transition: 0.3s;
+        }
+        .list-row:hover { background: rgba(255,255,255,0.2); }
+        .list-row img {
+            width: 58px; height: 58px; border-radius: 18px;
+            object-fit: cover; border: 2px solid white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .section-title { font-size: 24px; font-weight: 800; text-align: center; margin: 40px 0 20px; color: #06f591; text-transform: uppercase; letter-spacing: 1px; }
+        .faq-box {
+            width: 100px; height: 85px; border: 3px solid #1e293b; border-radius: 20px;
+            position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            transition: 0.3s; background: white;
+        }
+        .faq-box:hover { background: #1e293b; color: white; transform: scale(1.1); }
+        .faq-box::after {
+            content: ''; position: absolute; bottom: -15px; left: 20px;
+            border-left: 10px solid transparent; border-right: 10px solid transparent;
+            border-top: 15px solid #1e293b;
+        }
+        @keyframes bg-move {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes shimmer {
+            100% { transform: translateX(100%); }
+        }
+        .particles { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
+        .particle {
+            position: absolute; width: 4px; height: 4px; background: white;
+            border-radius: 50%; opacity: 0.6; animation: floatParticle linear infinite;
+        }
+        @keyframes floatParticle {
+            from { transform: translateY(100vh) scale(0.5); opacity: 0; }
+            20% { opacity: 1; }
+            to { transform: translateY(-10vh) scale(1); opacity: 0; }
+        }
+        .mouse-glow {
+            position: fixed; width: 200px; height: 200px;
+            background: radial-gradient(circle, rgba(127,127,213,0.25), transparent 70%);
+            border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%);
+            z-index: 2; transition: 0.05s linear;
+        }
+        .verify { width: 31px; height: 31px; margin-left: 2px; vertical-align: -3px; }
+        .left-col { position: relative; z-index: 10; }
+        #overlay {
+            position: fixed; inset: 0; background: rgba(10, 10, 20, 0);
+            backdrop-filter: blur(0px); opacity: 0; pointer-events: none;
+            transition: all 0.4s ease; z-index: 9998;
+        }
+        #overlay.active { opacity: 1; pointer-events: auto; }
+        #bg-overlay {
+            position: fixed; inset: 0;
+            background: linear-gradient(to bottom, rgba(5, 5, 10, 0), rgba(5, 5, 10, 0));
+            backdrop-filter: blur(0px); z-index: 0; pointer-events: none;
+        }
+        .badge-new {
+            position: absolute; top: -8px; right: -8px; background: #3b82f6;
+            color: white; font-size: 10px; font-weight: bold; padding: 2px 8px;
+            border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 20;
+        }
+        .bg-dynamic {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; overflow: hidden;
+        }
+        .bg-dynamic video {
+            position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
+            width: auto; height: auto; transform: translate(-50%, -50%); object-fit: cover;
+        }
+        .bg-dynamic img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+        .bg-dynamic .gradient-bg { width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+        body::after, body::before { display: none !important; }
+        .music-controls {
+            position: fixed; bottom: 20px; right: 20px; display: flex; gap: 10px; z-index: 1000;
+            background: rgba(255, 255, 255, 0.096); padding: 12px; border-radius: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); backdrop-filter: blur(10px);
+        }
+        .music-btn {
+            width: 45px; height: 45px; background: rgba(251, 251, 252, 0.089); color: white;
+            border: none; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            cursor: pointer; font-size: 1.1rem; transition: all 0.3s ease;
+        }
+        .music-btn:hover { transform: scale(1.1); background: rgba(243, 244, 245, 0.137); }
+        .select-btn { background: rgba(156, 89, 182, 0.452) !important; }
+        .song-list-panel {
+            position: fixed; bottom: 100px; right: 20px; background: rgba(255, 255, 255, 0.089);
+            backdrop-filter: blur(2px); border-radius: 15px; padding: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); z-index: 1001; width: 250px;
+            opacity: 0; transform: translateY(20px); transition: all 0.3s ease; pointer-events: none;
+        }
+        .song-list-panel.show { opacity: 1; transform: translateY(0); pointer-events: all; }
+        .song-list-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 10px; padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2); font-weight: 600; color: #fff;
+        }
+        .close-list-btn { background: none; border: none; cursor: pointer; color: #ccc; font-size: 1.2rem; padding: 5px; }
+        .song-list-content { max-height: 200px; overflow-y: auto; }
+        .song-list-item {
+            display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 8px;
+            cursor: pointer; transition: all 0.2s ease; font-size: 14px; color: #fff; margin-bottom: 5px;
+        }
+        .song-list-item:hover { background: rgba(77, 171, 247, 0.2); }
+        .song-list-item.active { background: rgba(77, 171, 247, 0.3); color: #4dabf7; }
+        .song-notification {
+            position: fixed; top: 20px; left: 50%; transform: translateX(-50%) translateY(-100px);
+            background: rgba(0, 0, 0, 0.473); color: white; padding: 12px 25px;
+            border-radius: 30px; z-index: 1002; backdrop-filter: blur(7px);
+            transition: all 0.5s ease; opacity: 0;
+        }
+        .song-notification.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+        .notification-content { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 500; }
+        .side-banner {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: clamp(120px, 14vw, 220px);
+            max-height: calc(100vh - 140px);
+            z-index: 25;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.5);
+            box-shadow: 0 18px 55px rgba(0,0,0,0.25);
+            background: rgba(255,255,255,0.12);
+            backdrop-filter: blur(8px);
+        }
+        .side-banner.left { left: 24px; }
+        .side-banner.right { right: 24px; }
+        .side-banner img {
+            display: block;
+            width: 100%;
+            max-height: calc(100vh - 140px);
+            object-fit: cover;
+        }
+        @media (max-width: 1023px) {
+            .side-banner { display: none; }
+        }
+    </style>
+</head>
+<body class="pb-16" onload="startClock(); initMusicPlayer();">
+
+    <div class="bg-dynamic">
+                    <picture>
+                <source media="(min-width: 769px)" srcset="https://www.image2url.com/r2/default/videos/1792825016609-f1c7ed7c-e09f-4be5-9037-634b3ac729a3.mp4">
+                <source media="(max-width: 768px)" srcset="https://files.catbox.moe/sugq5t.MP4
+">
+                <img src="https://files.catbox.moe/sugq5t.MP4
+" alt="Background">
+            </picture>
+            </div>
+
+    <!-- Overlay -->
+    <div class="bg-overlay" style="background: #000000; opacity: 0;"></div>
+    <div id="overlay"></div>
+    <div id="bg-overlay"></div>
+
+    
+                        <div class="side-banner left">
+                        <img src="https://cdn.phototourl.com/member/2026-10-24-fee5b4e7-c8bd-4156-9ea3-6203e0913351.jpg" alt="Banner left">
+        </div>    
+    
+    <!-- Navbar top -->
+    <header class="bg-white/70 backdrop-blur-lg h-16 flex justify-between items-center px-6 sticky top-0 z-50 border-b border-white/50">
+                <span class="text-slate-800 font-black italic text-xl uppercase tracking-tighter">
+            <span class="text-blue-600">Nguyễn Thành</span>
+             Hưng        </span>
+        <div class="flex items-center gap-3">
+            <span class="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
+            <i id="menuBtn" class="fa-solid fa-bars-staggered text-slate-800 text-2xl cursor-pointer"></i>
+        </div>
+    </header>
+
+<div id="sidebar">
+    <h2>DANH MỤC</h2>
+    <div class="category-tree">
+                    <div class="category-group">
+                                    <div class="parent-label">
+                        <i class="fas fa-folder"></i>
+                        ZALO:0345269332                    </div>
+                
+                            </div>
+            </div>
+
+    </div>
+
+<div class="particles" id="particles"></div>
+<div class="mouse-glow" id="mouseGlow"></div>
+
+<style>
+    #sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 280px;
+        height: 100%;
+        background: rgba(20, 20, 30, 0.75);
+        backdrop-filter: blur(20px);
+        border-left: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: -20px 0 60px rgba(0, 0, 0, 0.6);
+        padding: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        transform: translateX(110%);
+        opacity: 0;
+        transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
+        will-change: transform;
+        z-index: 9999;
+        overflow-y: auto;
+    }
+    #sidebar.active { transform: translateX(0); opacity: 1; }
+    #sidebar h2 {
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 18px;
+        letter-spacing: 1px;
+    }
+    #sidebar h3 {
+        font-size: 12px;
+        font-weight: 900;
+        color: #93c5fd;
+        margin: 16px 0 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .sidebar-extra-title { margin-top: 24px; }
+    .category-tree {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .category-group {
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 8px;
+    }
+    .parent-label,
+    #sidebar a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 12px;
+        font-weight: 700;
+        color: #cbd5f5;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid transparent;
+        transition: all 0.3s ease;
+    }
+    .parent-label,
+    #sidebar .parent-link {
+        color: #ffffff;
+        background: rgba(59, 130, 246, 0.16);
+    }
+    .child-list {
+        margin-top: 8px;
+        padding-left: 12px;
+        border-left: 1px solid rgba(147, 197, 253, 0.3);
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    #sidebar .child-link {
+        padding: 10px 12px;
+        font-size: 14px;
+        background: rgba(255, 255, 255, 0.035);
+        color: #dbeafe;
+    }
+    #sidebar > a { margin-bottom: 10px; }
+    #sidebar a:hover {
+        background: linear-gradient(135deg, #3b82f6, #a855f7);
+        color: white;
+        transform: translateX(8px) scale(1.03);
+        box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+    #sidebar i { font-size: 16px; }
+</style>
+
+<script>
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+
+    menuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+    });
+    overlay.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+    sidebar.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+    });
+
+    const particlesContainer = document.getElementById('particles');
+    function createParticle() {
+        const p = document.createElement('div');
+        p.classList.add('particle');
+        const size = Math.random() * 4 + 2;
+        p.style.width = size + 'px';
+        p.style.height = size + 'px';
+        p.style.left = Math.random() * window.innerWidth + 'px';
+        p.style.animationDuration = (Math.random() * 5 + 5) + 's';
+        particlesContainer.appendChild(p);
+        setTimeout(() => p.remove(), 10000);
+    }
+    setInterval(createParticle, 200);
+
+    const glow = document.getElementById('mouseGlow');
+    document.addEventListener('mousemove', (e) => {
+        glow.style.left = e.clientX + 'px';
+        glow.style.top = e.clientY + 'px';
+    });
+</script>
+
+<div class="left-col relative z-10">
+    <div class="max-w-md mx-auto">
+
+        <div class="snowflakes">
+            <div class="snowflake" style="left:10%; animation-duration:10s;">❄</div>
+            <div class="snowflake" style="left:30%; animation-duration:8s;">•</div>
+            <div class="snowflake" style="left:50%; animation-duration:12s;">❄</div>
+            <div class="snowflake" style="left:70%; animation-duration:9s;">•</div>
+            <div class="snowflake" style="left:85%; animation-duration:15s;">❆</div>
+        </div>
+
+        <div class="flex flex-col items-center pt-10">
+           <div class="avatar-container relative w-40 h-40 flex items-center justify-center">
+
+    <div class="w-28 h-28 rounded-full overflow-hidden">
+        <img src="https://files.catbox.moe/5wi9wv.MP4"
+             class="w-full h-full rounded-full object-cover">
+    </div>
+
+</div>
+
+            <p class="mt-6 font-bold italic text-sm tracking-widest uppercase bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                Welcome To            </p>
+
+            <h1 class="text-3xl font-black text-yellow-400 text-center mt-1 flex items-center justify-center gap-2">
+                Thành Hưng                                   <img class="verify" src="https://files.catbox.moe/fv78sw.mov" alt="">
+                            </h1>
+
+            <p class="mt-6 font-bold italic text-sm tracking-widest uppercase bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+                            </p>
+
+            <div class="flex gap-5 mt-8 flex-wrap justify-center">
+                                                                            <a href="https://www.tiktok.com/@thanhhungcte?_r=1&_t=ZS-9AuwbhvsJnh"
+                       target="_blank" rel="noopener noreferrer"
+                       class="w-14 h-14 rounded-xl bg-white shadow-md flex items-center justify-center text-2xl hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
+                       style="color: #3b82f6;">
+                                                    <i class="fa-brands fa-brands fa-tiktok"></i>
+                                            </a>
+                                                                            <a href="https://zalo.me/0345269332"
+                       target="_blank" rel="noopener noreferrer"
+                       class="w-14 h-14 rounded-xl bg-white shadow-md flex items-center justify-center text-2xl hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
+                       style="color: #3b82f6;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+                                 alt="Zalo"
+                                 class="w-7 h-7">
+                                            </a>
+                                                                            <a href="https://t.me/ThanhHungCte"
+                       target="_blank" rel="noopener noreferrer"
+                       class="w-14 h-14 rounded-xl bg-white shadow-md flex items-center justify-center text-2xl hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
+                       style="color: #3b82f6;">
+                                                    <i class="fa-brands fa-brands fa-telegram"></i>
+                                            </a>
+                            </div>
+                    </div>
+
+        <div class="mt-10 space-y-4 px-4">
+                            <div class="glass-card p-5 flex items-center justify-between">
+                    <div class="flex items-center gap-4 min-w-0">
+                        <div class="w-12 h-12 min-w-[48px] min-h-[48px] bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-xl overflow-hidden flex-shrink-0">
+                                                            <i class="fa-solid fa-brands fa-telegram"></i>
+                                                    </div>
+                        <div class="min-w-0">
+                            <p class="font-black text-slate-700 break-words">BOX THÔNG BÁO</p>
+                            <p class="text-[10px] text-blue-500 font-bold uppercase tracking-tighter break-words">
+                                t.me                            </p>
+                        </div>
+                    </div>
+                    <a href="https://t.me/xuanbac20" class="btn-action flex-shrink-0">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                            <div class="glass-card p-5 flex items-center justify-between">
+                    <div class="flex items-center gap-4 min-w-0">
+                        <div class="w-12 h-12 min-w-[48px] min-h-[48px] bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-xl overflow-hidden flex-shrink-0">
+                                                            <i class="fa-solid fa-brands fa-telegram"></i>
+                                                    </div>
+                        <div class="min-w-0">
+                            <p class="font-black text-slate-700 break-words">CHAT SET</p>
+                            <p class="text-[10px] text-blue-500 font-bold uppercase tracking-tighter break-words">
+                                t.me                            </p>
+                        </div>
+                    </div>
+                    <a href="https://t.me/xuanbacchat" class="btn-action flex-shrink-0">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                            <div class="glass-card p-5 flex items-center justify-between">
+                    <div class="flex items-center gap-4 min-w-0">
+                        <div class="w-12 h-12 min-w-[48px] min-h-[48px] bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-xl overflow-hidden flex-shrink-0">
+                                                            <i class="fa-solid fa-brands fa-telegram"></i>
+                                                    </div>
+                        <div class="min-w-0">
+                            <p class="font-black text-slate-700 break-words"></p>
+                            <p class="text-[10px] text-blue-500 font-bold uppercase tracking-tighter break-words">
+                                t.me                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="btn-action flex-shrink-0">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                    </div>
+        
+    </div>
+</div>
+
+<div id="siteNoticeModal" class="fixed inset-0 z-[9999] hidden items-center justify-center px-4 py-6" style="background:rgba(0,0,0,.62);backdrop-filter:blur(10px)">
+    <div class="relative w-full max-w-md overflow-hidden rounded-[30px] bg-white shadow-[0_30px_100px_rgba(0,0,0,.45)] border border-white/70">
+        <button type="button" onclick="closeSiteNotice(false)" class="absolute right-3 top-3 z-10 w-10 h-10 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-red-500 transition">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        
+        <div class="p-6 text-center">
+            <div class="mx-auto mb-3 w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-2xl shadow-xl">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <h3 class="text-2xl font-black text-slate-900">
+                Thông Báo 🥨            </h3>
+
+                            <p class="mt-3 text-sm font-semibold text-slate-600 whitespace-pre-line">
+                    ZALO: 0345269332 TeLe:@ThanhHungCte
+
+                </p>
+            
+            
+            <div class="mt-6 grid grid-cols-2 gap-3">
+                <button type="button" onclick="closeSiteNotice(false)" class="rounded-2xl bg-slate-100 text-slate-700 py-3 font-black hover:bg-slate-200 transition">
+                    Đóng
+                </button>
+                <button type="button" onclick="closeSiteNotice(true)" class="rounded-2xl bg-blue-600 text-white py-3 font-black hover:bg-blue-700 transition">
+                    Ẩn 2 giờ
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function(){
+    const key = 'site_notice_hidden_until';
+    const hiddenUntil = Number(localStorage.getItem(key) || 0);
+    if (Date.now() < hiddenUntil) return;
+
+    window.addEventListener('DOMContentLoaded', function(){
+        const modal = document.getElementById('siteNoticeModal');
+        if (modal) {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+    });
+})();
+
+function closeSiteNotice(hide2h){
+    const hideHours = 2;
+
+    if (hide2h) {
+        localStorage.setItem(
+            'site_notice_hidden_until',
+            String(Date.now() + hideHours * 60 * 60 * 1000)
+        );
+    }
+
+    const modal = document.getElementById('siteNoticeModal');
+    if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+    }
+}
+</script>
+
+
+<!-- ═══════════════════════════  FOOTER  ═══════════════════════════════════ -->
+<div class="text-center mt-14 mb-10">
+    <span class="inline-block text-[10px] font-black tracking-[0.4em] uppercase
+                 px-6 py-2 rounded-full border border-white/50 text-white/70">
+        TeLe:@ThanhHungCte    </span>
+</div>
+
+<audio id="bgMusic" preload="auto"></audio>
+
+
+<script>
+// ── Live clock ───────────────────────────────────────────────────────────────
+function startClock() {
+    const clockElements = document.querySelectorAll('.live-clock');
+    setInterval(() => {
+        const now     = new Date();
+        const timeStr = now.toLocaleTimeString('vi-VN', { hour12: false });
+        const dateStr = now.toLocaleDateString('vi-VN');
+        clockElements.forEach(el => { el.innerHTML = `🕒 ${timeStr} | ${dateStr}`; });
+    }, 1000);
+}
+
+// ── Music player ─────────────────────────────────────────────────────────────
+const playlist  = ["https://files.catbox.moe/x02zka.mp3","https://files.catbox.moe/x02zka.mp3"];
+const songNames = ["MUSIC","h"];
+const audioElem = document.getElementById('bgMusic');
+let currentSongIndex = 0;
+
+function initMusicPlayer() {
+    if (!playlist.length) return;
+
+    createMusicControls();
+    createSongList();
+    createSongNotification();
+
+    playCurrentSong();
+
+    // Không tự động phát nhạc
+    updateMusicIcons('pause');
+
+    audioElem.addEventListener('ended', playNextSong);
+}
+
+function createMusicControls() {
+    const controls = document.createElement('div');
+    controls.className = 'music-controls';
+    controls.innerHTML = `
+        <button class="music-btn" onclick="playPreviousSong()" title="Bài trước">
+            <i class="bi bi-skip-backward-fill"></i>
+        </button>
+        <button class="music-btn" onclick="togglePlayPause()" title="Phát/Tạm dừng">
+            <i class="bi bi-play-fill"  id="playIcon"></i>
+            <i class="bi bi-pause-fill" id="pauseIcon" style="display:none"></i>
+        </button>
+        <button class="music-btn" onclick="playNextSong()" title="Bài tiếp theo">
+            <i class="bi bi-skip-forward-fill"></i>
+        </button>
+        <button class="music-btn select-btn" onclick="openSongList()" title="Chọn bài hát">
+            <i class="bi bi-music-note-list"></i>
+        </button>
+    `;
+    document.body.appendChild(controls);
+}
+
+function createSongList() {
+    const songList = document.createElement('div');
+    songList.className = 'song-list-panel';
+    songList.innerHTML = `
+        <div class="song-list-header">
+            <span>Chọn bài hát</span>
+            <button class="close-list-btn" onclick="closeSongList()"><i class="bi bi-x"></i></button>
+        </div>
+        <div class="song-list-content">
+            ${songNames.map((song, i) => `
+                <div class="song-list-item ${i === currentSongIndex ? 'active' : ''}" onclick="selectSong(${i})">
+                    <i class="bi bi-music-note"></i>
+                    <span>${song}</span>
+                    ${i === currentSongIndex ? '<i class="bi bi-check"></i>' : ''}
+                </div>`).join('')}
+        </div>
+    `;
+    document.body.appendChild(songList);
+}
+
+function createSongNotification() {
+    const n = document.createElement('div');
+    n.className = 'song-notification';
+    n.innerHTML = `
+        <div class="notification-content">
+            <i class="bi bi-music-note-beamed"></i>
+            <span id="currentSongText">Đang phát: ${songNames[0]}</span>
+        </div>`;
+    document.body.appendChild(n);
+}
+
+function playCurrentSong() {
+    audioElem.src    = playlist[currentSongIndex];
+    audioElem.volume = 0.7;
+    audioElem.load();
+    document.querySelectorAll('.song-list-item')
+        .forEach((el, i) => el.classList.toggle('active', i === currentSongIndex));
+}
+
+function playNextSong() {
+    if (!playlist.length) return;
+    currentSongIndex = (currentSongIndex + 1) % playlist.length;
+    playCurrentSong();
+    audioElem.play();
+    updateMusicIcons('play');
+    showSongNotification();
+}
+
+function playPreviousSong() {
+    if (!playlist.length) return;
+    currentSongIndex = (currentSongIndex - 1 + playlist.length) % playlist.length;
+    playCurrentSong();
+    audioElem.play();
+    updateMusicIcons('play');
+    showSongNotification();
+}
+
+function togglePlayPause() {
+    if (!playlist.length) return;
+    if (audioElem.paused) { audioElem.play();  updateMusicIcons('play');  }
+    else                  { audioElem.pause(); updateMusicIcons('pause'); }
+}
+
+function updateMusicIcons(state) {
+    document.getElementById('playIcon').style.display  = state === 'play' ? 'none'  : 'block';
+    document.getElementById('pauseIcon').style.display = state === 'play' ? 'block' : 'none';
+}
+
+function openSongList()  { document.querySelector('.song-list-panel').classList.add('show');    }
+function closeSongList() { document.querySelector('.song-list-panel').classList.remove('show'); }
+
+function selectSong(index) {
+    if (!playlist[index]) return;
+    currentSongIndex = index;
+    playCurrentSong();
+    audioElem.play()
+        .then(() => { updateMusicIcons('play');  showSongNotification(); closeSongList(); })
+        .catch(() => { updateMusicIcons('pause'); showSongNotification(); closeSongList(); });
+}
+
+function showSongNotification() {
+    const n = document.querySelector('.song-notification');
+    document.getElementById('currentSongText').textContent = `Đang phát: ${songNames[currentSongIndex]}`;
+    n.classList.add('show');
+    setTimeout(() => n.classList.remove('show'), 3000);
+}
+
+
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+window.onload = function () { startClock(); initMusicPlayer(); };
+</script>
+
+</body>
+</html>
